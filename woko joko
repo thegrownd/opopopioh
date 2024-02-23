@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Genre</title>
+</head>
+<body>
+    <div>
+            <!-- navbar -->
+            <nav>
+              <nav class="navbar navbar-dark bg-dark">
+                <p>.</p>
+            </nav>
+            <nav class="navbar navbar-dark bg-dark position-fixed fixed-top">
+              <div class="container-fluid">
+                <a class="navbar-brand">
+                  <img src="Assets/Images/Untitled-1.png" alt="Logo" height="30" class="d-inline-block align-text-top">
+                  RedRabbit</a>
+                <ul class="nav nav-tabs">
+                  <li class="nav-item" id="Home">
+                    <a class="nav-link active; ', text-bg-dark" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-bg-dark" href="Trending.html">Trending</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-bg-dark" href="Genre.html">Genre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-bg-dark" href="About.html">About</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>  
+          </nav>
+            <!-- navbar end -->
+
+            <!--Genre-->
+            <div class="tipeVideo">
+              <p class="fs-2 p-1 mb-3 bg-secondary text-dark">Silahkan cari GENRE kesukaanmu<p>
+              <a class="tipeVideoTeks px-2 " href="">BDSM</a>
+              <a class="tipeVideoTeks px-2" href="">Loli</a>
+              <a class="tipeVideoTeks px-2" href="">Ahegao</a>
+              <a class="tipeVideoTeks px-2" href="">Action</a>
+              <a class="tipeVideoTeks px-2" href="">Adventure</a>
+              <a class="tipeVideoTeks px-2" href="">Isekai</a>
+              <a class="tipeVideoTeks px-2" href="">Gangbang</a>
+              <a class="tipeVideoTeks px-2" href="">Harem</a>
+              <a class="tipeVideoTeks px-2" href="">Overlord</a>
+              <a class="tipeVideoTeks px-2" href="">Tensei sikan nojitsu</a>
+              <div>
+                <a class="tipeVideoTeks px-2 " href="">BDSM</a>
+                <a class="tipeVideoTeks px-2" href="">Loli</a>
+                <a class="tipeVideoTeks px-2" href="">Ahegao</a>
+                <a class="tipeVideoTeks px-2" href="">Action</a>
+                <a class="tipeVideoTeks px-2" href="">Adventure</a>
+                <a class="tipeVideoTeks px-2" href="">Isekai</a>
+                <a class="tipeVideoTeks px-2" href="">Gangbang</a>
+                <a class="tipeVideoTeks px-2" href="">Harem</a>
+                <a class="tipeVideoTeks px-2" href="">Overlord</a>
+                <a class="tipeVideoTeks px-2" href="">Tensei sikan nojitsu</a>
+
+              </div>
+            </div>
+
+
+
+
+        <!-- Footer (tampilan bagian bawah website) -->
+        <footer class="navbar navbar-dark bg-dark position-fixed fixed-bottom">
+          <div class="container-fluid">
+            <a href="index.html" class="navbar-brand"></a>
+            <ul class="nav nav-tabs">
+              <li class="nav-item" id="Home" onclick="myFunction()">
+                <a class="nav-link active; ', text-bg-dark" aria-current="page">Mode</a>
+              </li>
+            </ul>
+          </div>
+      </footer>
+        <!-- footer end -->
+    </div>
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="data.js">
+    </script>
+</body>
+</html>
